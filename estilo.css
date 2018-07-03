@@ -1,3 +1,37 @@
 body {
     margin:0;
+    background-color: lightgray;
+    font-family: sans-serif;
+
+}
+
+h1, h2{
+    color: red;
+}
+
+header{
+    display: flex;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+aside{
+    display: absolute;
+    left: 0;
+    height: 100hv;
+    width: 300px;
+    background-color: grey;
+}
+
+section{
+    position: relative;
+    left:300px;
+
+}
+
+footer{
+    position: absolute;
+    left: 300px;
 }
